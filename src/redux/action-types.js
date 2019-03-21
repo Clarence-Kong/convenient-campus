@@ -1,0 +1,5 @@
+
+export const GET_IPLOCATION='GET_IPLOCATION';
+export const GET_SEARCH='GET_SEARCH';
+export const SEARCH_PLACE='SEARCH_PLACE'
+export const CHANGE_BGC='CHANGE_BGC'

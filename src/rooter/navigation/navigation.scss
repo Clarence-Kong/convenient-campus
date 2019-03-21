@@ -1,0 +1,54 @@
+.navigation {
+  background-color: #1e89e0;
+  .font {
+    font-size: 18px;
+    color: #fff;
+  }
+  .container {
+    line-height: 0;
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: max-content;
+    .icon {
+      margin-right: 1rem;
+      background: url("../../images/head.jpeg") no-repeat;
+      -webkit-background-size: contain;
+      background-size: cover;
+      width: 8rem;
+      height: 5rem;
+    }
+
+    ul {
+      height: max-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      a {
+        height: max-content;
+      }
+      a:hover {
+        background-color: #126bae;
+        transition: all 0.5s ease-out;
+      }
+      li {
+        line-height: 5rem;
+        width: 10rem;
+        text-align: center;
+      }
+    }
+    .user {
+      line-height: 3rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 1rem 0;
+      text-align: center;
+      h3 {
+        padding-left: 0.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+//@import "bourbon";
+
+.communityContent {
+  width: 1180px;
+  margin: 0 auto;
+  .ContentList {
+    padding-top: 2rem;
+    .ListItemStyle {
+      border-bottom: 1px solid #e8e8e8;
+      padding: 2px;
+    }
+    .ListItemStyle:hover {
+      cursor: pointer;
+      border-bottom: 1px solid silver;
+      transition: all 0.4s ease;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.map {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  .maps {
+    width: max-content;
+    height: 30rem;
+    min-width: 30rem;
+
+  }
+  #panel {
+    background-color: white;
+    overflow-y: auto;
+    top: 10px;
+    right: 10px;
+    width: 24rem;
+    min-height: 30rem;
+  }
+  #panel .amap-lib-driving {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+}

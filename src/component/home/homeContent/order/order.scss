@@ -1,0 +1,12 @@
+.order {
+  padding-top: 2rem;
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .view {
+    width:346.63px;
+    padding: 0.5rem 0;
+  }
+}

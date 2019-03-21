@@ -1,0 +1,73 @@
+.shops {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #dcdcdc;
+  .shop {
+    display: flex;
+    flex-direction: row;
+    .shopBg {
+      position: relative;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      height: max-content;
+    }
+    .products {
+      display: flex;
+
+      .product {
+        width: 140px;
+        height: 158px;
+        border: 1px solid #E6E6E6;
+        margin-right: 0.5rem;
+      }
+      img {
+        width: 140px;
+        height: 140px;
+      }
+      .price {
+        padding-left: 10px;
+        text-align: center;
+      }
+    }
+    .introduction {
+      height: max-content;
+      position: relative;
+      h4 {
+        font-weight: bold;
+      }
+      .check {
+        font-size: 10px;
+        position: absolute;
+        width: max-content;
+        top: -6px;
+        right: -12px;
+        color: red;
+        margin-left: 4px;
+      }
+      margin-left: 1rem;
+      margin-right: 23rem;
+      line-height: 24px;
+      a {
+        color: #0063DC;
+      }
+    }
+  }
+  .bottom {
+    .button{
+
+    }
+    .xiao {
+      padding-left: 1rem;
+      .sell {
+        padding-right: 1rem;
+      }
+      .icon {
+        color: red;
+      }
+    }
+
+  }
+}
