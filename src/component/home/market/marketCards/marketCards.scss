@@ -8,7 +8,10 @@
     flex-direction: row;
     .shopBg {
       position: relative;
-      img {
+      .img {
+        background:url("../../../../images/dian.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
         width: 70px;
         height: 70px;
       }
@@ -19,13 +22,14 @@
 
       .product {
         width: 140px;
-        height: 158px;
+        height: 162px;
         border: 1px solid #E6E6E6;
         margin-right: 0.5rem;
       }
       img {
         width: 140px;
         height: 140px;
+        border-bottom: 1px solid #E6E6E6;
       }
       .price {
         padding-left: 10px;

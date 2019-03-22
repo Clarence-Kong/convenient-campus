@@ -5,15 +5,18 @@
     border-radius: 5%;
   }
   .el-carousel__item h3 {
-    color: #475669;
-    font-size: 14px;
+    color: #1e89e0;
+    font-size: 24px;
+    font-weight: bold;
     opacity: 0.75;
     line-height: 200px;
-    margin: 0;
+    text-align: center;
   }
 
   .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
+    background:url("../../../../images/footer.jpg") #99a9bf;
+    -webkit-background-size: cover;
+    background-size: cover;
   }
 
   .el-carousel__item:nth-child(2n+1) {

@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import {Carousel} from 'element-react'
 import './marketCarousel.scss'
+let img=[]
 export  default class MarketCarousel extends Component{
   render(){
     return(
@@ -10,7 +11,7 @@ export  default class MarketCarousel extends Component{
             [1,2,3,4,5,6].map((item, index) => {
               return (
                 <Carousel.Item key={index}>
-                  <h3>{item}</h3>
+                    <h3>欢迎进驻！</h3>
                 </Carousel.Item>
               )
             })
