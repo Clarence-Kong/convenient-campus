@@ -4,7 +4,7 @@ import {
   Menu, Dropdown, Icon, Avatar,
 } from 'antd'
 import { changeBgc } from '../../redux/actions'
-import { community, market, homePage } from '../rootTable'
+import { community, store, homePage } from '../rootTable'
 import './navigation.scss'
 import { connect } from 'react-redux'
 
@@ -49,7 +49,7 @@ class Navigation extends Component {
                 <h1 className={'font'}>社区伙伴</h1>
               </li>
             </NavLink>
-            <NavLink to={market}>
+            <NavLink to={store}>
               <li style={{background:changeColor[2]}} onClick={this.changeToMarket}>
                 <h1 className={'font'}>店铺</h1>
               </li>

@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import './login.scss'
 import SignUp from './signUp/signUp'
-import {NavLink} from 'react-router-dom'
-import {homeContent} from '../../rooter/rootTable'
 
 export default class Login extends Component {
     render() {

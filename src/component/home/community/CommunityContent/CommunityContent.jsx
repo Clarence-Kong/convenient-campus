@@ -10,10 +10,10 @@ const listData = [];
 for (let i = 0; i < 23; i++) {
   listData.push({
     href: 'http://ant.design',
-    title: `wahaha ${i}`,
+    title: `朋友 ${i}`,
     avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
     description: 'we like it!',
-    content: 'hahahaxixixi',
+    content: '今天重新阅读了追风筝的人，又有了不一样的感受',
   });
 }
 

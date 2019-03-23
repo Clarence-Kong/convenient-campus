@@ -13,8 +13,8 @@ class Maps extends Component {
           zoom: 11
         })
         driving.search([
-          {keyword: '北京市地震局(公交站)', city: '北京'},
-          {keyword: '亦庄文化园(地铁站)', city: '北京'}
+          {keyword: '黑龙江大学', city: '哈尔滨'},
+          {keyword: '黑龙江大学c区', city: '哈尔滨'}
         ], function (status, result) {
           if (status === 'complete') {
             console.log('绘制驾车路线完成')

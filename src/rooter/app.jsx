@@ -7,8 +7,6 @@ import HomePage from '../component/home/homePage'
 import Logo from '../component/logo/logo'
 import Login from '../component/login/login'
 export default class App extends Component {
-  componentDidMount(){
-  }
   render () {
     return (
       <div className={'app'}>

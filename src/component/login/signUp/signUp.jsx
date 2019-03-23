@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import './signUp.scss'
 import {Button} from 'antd'
+import {NavLink} from 'react-router-dom'
+import {homeContent} from '../../../rooter/rootTable'
 export default class SignUp extends Component {
     load=()=>{
 
@@ -35,7 +37,7 @@ export default class SignUp extends Component {
                                         in</label>
                                 </div>
                                 <div className="group">
-                                    <Button block className="buttonA" >Sign In</Button>
+                                    <NavLink to={homeContent}> <Button block className="buttonA" >Sign In</Button></NavLink>
                                 </div>
                                 <div className="hr">
                                 </div>
